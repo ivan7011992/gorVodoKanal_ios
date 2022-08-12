@@ -1,0 +1,59 @@
+PODS:
+  - Alamofire (5.4.3)
+  - HTMLKit (4.2.0)
+  - IQKeyboardManagerSwift (6.5.10)
+  - LBTATools (1.0.12)
+  - PaddingLabel (1.2)
+  - Sentry (7.17.0):
+    - Sentry/Core (= 7.17.0)
+  - Sentry/Core (7.17.0)
+  - SwiftyJSON (4.3.0)
+  - TLCustomMask (2.0.0)
+  - Toaster (2.3.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.4)
+  - HTMLKit (~> 4.2)
+  - IQKeyboardManagerSwift
+  - LBTATools
+  - PaddingLabel (= 1.2)
+  - Sentry (from `https://github.com/getsentry/sentry-cocoa.git`, tag `7.17.0`)
+  - SwiftyJSON (~> 4.0)
+  - TLCustomMask
+  - Toaster
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HTMLKit
+    - IQKeyboardManagerSwift
+    - LBTATools
+    - PaddingLabel
+    - SwiftyJSON
+    - TLCustomMask
+    - Toaster
+
+EXTERNAL SOURCES:
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 7.17.0
+
+CHECKOUT OPTIONS:
+  Sentry:
+    :git: https://github.com/getsentry/sentry-cocoa.git
+    :tag: 7.17.0
+
+SPEC CHECKSUMS:
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  HTMLKit: e11ec9ed1a9be779e7dd65acdea5757fb113030e
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  LBTATools: 389a901a01b9a56bea5682c40cd6e23530f40015
+  PaddingLabel: 21ab5282c780366018b04c30e3920c2f55a2fd14
+  Sentry: fab42835ed4562f0ea425b1a9814a24cc034b5d1
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  TLCustomMask: 32bcd873851167c2d2a3726b048766b737873710
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+
+PODFILE CHECKSUM: 53db2c07f00d57c0bbc32ebfe7140ced24cfe70f
+
+COCOAPODS: 1.10.1

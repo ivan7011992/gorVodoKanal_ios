@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A2E4DFF7-E2DF-4E9E-99BA-B81A991F29B1"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "45CBD44D-D3A1-4562-B299-A6E90E9CEFD3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GorvodokanalMobileAppiOS/Views/PassMetersController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
+            landmarkName = "setMetersData(items:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90B78227-574E-46F8-8473-430E45EEDCD0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GorvodokanalMobileAppiOS/Views/PassMetersController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "149"
+            endingLineNumber = "149"
+            landmarkName = "onSubmit(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AD13A9A3-FF5E-4377-B294-ADD22E883279"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GorvodokanalMobileAppiOS/Cell/ PassMetersCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
+            landmarkName = "validate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1213DA24-4191-4009-AAE4-891B3F715FD9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GorvodokanalMobileAppiOS/Cell/ PassMetersCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "validate()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D7F1AB6-BD42-42E4-A5AB-C91DB701B3CD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GorvodokanalMobileAppiOS/Views/PaymentMetersController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "PaymentMetersController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6D7F1AB6-BD42-42E4-A5AB-C91DB701B3CD - baecffac58f660b5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_example_GorvodokanalMobileAppiOS.PaymentMetersController.sumDept.getter : Swift.Double"
+                  moduleName = "com.example.GorvodokanalMobileAppiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/i/Desktop/GorvodokanalProject%20/GorvodokanalMobileAppiOS/Views/PaymentMetersController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "89">
+               </Location>
+               <Location
+                  uuid = "6D7F1AB6-BD42-42E4-A5AB-C91DB701B3CD - 4ff4384e31df10a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_example_GorvodokanalMobileAppiOS.PaymentMetersController.sumDept.setter : Swift.Double"
+                  moduleName = "com.example.GorvodokanalMobileAppiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/i/Desktop/GorvodokanalProject%20/GorvodokanalMobileAppiOS/Views/PaymentMetersController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "102">
+               </Location>
+               <Location
+                  uuid = "6D7F1AB6-BD42-42E4-A5AB-C91DB701B3CD - eb08f1956ae734b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_example_GorvodokanalMobileAppiOS.PaymentMetersController.sumDept.modify : Swift.Double"
+                  moduleName = "com.example.GorvodokanalMobileAppiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/i/Desktop/GorvodokanalProject%20/GorvodokanalMobileAppiOS/Views/PaymentMetersController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "6D7F1AB6-BD42-42E4-A5AB-C91DB701B3CD - 9448b3a4b0465f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_example_GorvodokanalMobileAppiOS.PaymentMetersController.sumDept.modify : Swift.Double with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "com.example.GorvodokanalMobileAppiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/i/Desktop/GorvodokanalProject%20/GorvodokanalMobileAppiOS/Views/PaymentMetersController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "6D7F1AB6-BD42-42E4-A5AB-C91DB701B3CD - 3492feaa04ee340a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_example_GorvodokanalMobileAppiOS.PaymentMetersController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; com_example_GorvodokanalMobileAppiOS.PaymentMetersController"
+                  moduleName = "com.example.GorvodokanalMobileAppiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/i/Desktop/GorvodokanalProject%20/GorvodokanalMobileAppiOS/Views/PaymentMetersController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "661">
+               </Location>
+               <Location
+                  uuid = "6D7F1AB6-BD42-42E4-A5AB-C91DB701B3CD - 62d92cfa76333021"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "com_example_GorvodokanalMobileAppiOS.PaymentMetersController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;com_example_GorvodokanalMobileAppiOS.PaymentMetersController&gt;"
+                  moduleName = "com.example.GorvodokanalMobileAppiOS"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/i/Desktop/GorvodokanalProject%20/GorvodokanalMobileAppiOS/Views/PaymentMetersController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "618">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C79A662F-9883-4E6C-BF29-DAE039D3D740"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GorvodokanalMobileAppiOS/Views/PaymentMetersController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "145"
+            endingLineNumber = "145"
+            landmarkName = "setMetersDataPay(items:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DEC726B9-2A4E-493E-838E-2E7B0AD818BF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GorvodokanalMobileAppiOS/Views/PassMetersController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "210"
+            endingLineNumber = "210"
+            landmarkName = "getPassMetersData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5B54C8B1-54C2-482A-A732-469945330DC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GorvodokanalMobileAppiOS/Views/PassMetersController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "242"
+            endingLineNumber = "242"
+            landmarkName = "showBannerTextMeters()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE1A2154-06F0-45D5-85C3-B65F9D1A2EA7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GorvodokanalMobileAppiOS/Views/SupportViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "getSupportData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

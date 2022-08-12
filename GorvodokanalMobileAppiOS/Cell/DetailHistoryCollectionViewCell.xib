@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DetailHistoryCollectionViewCell" id="gTV-IL-0wX" customClass="DetailHistoryCollectionViewCell" customModule="com_example_GorvodokanalMobileAppiOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="159"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="366" height="159"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usluga" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F4j-nG-OAe">
+                        <rect key="frame" x="7" y="32" width="53" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Долг на начало периода" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QnL-lp-hMX">
+                        <rect key="frame" x="6" y="57" width="165" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Начисления за период" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wil-VZ-4j7">
+                        <rect key="frame" x="6" y="78" width="154" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Оплата за период" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vae-7F-pIe">
+                        <rect key="frame" x="6" y="99" width="122" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Долг на конец периода" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rs3-Fu-ool">
+                        <rect key="frame" x="6" y="120" width="158" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="deptBeginValue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JFL-Z0-Bqi">
+                        <rect key="frame" x="259" y="53" width="101" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="accrualsForPeriod" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vnK-7s-6Dq">
+                        <rect key="frame" x="243" y="74" width="117" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="paymentForPeriod" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQ4-RH-40s">
+                        <rect key="frame" x="241" y="95" width="119" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="deptEndValue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vwe-KG-1zx">
+                        <rect key="frame" x="270" y="116" width="90" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vnK-7s-6Dq" firstAttribute="top" secondItem="JFL-Z0-Bqi" secondAttribute="bottom" constant="4" id="4bd-YZ-HTL"/>
+                <constraint firstItem="Vae-7F-pIe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="6" id="6bK-gC-eoQ"/>
+                <constraint firstAttribute="trailing" secondItem="vwe-KG-1zx" secondAttribute="trailing" constant="6" id="Ddf-kw-9Cg"/>
+                <constraint firstItem="QnL-lp-hMX" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="6" id="N6L-6H-N9p"/>
+                <constraint firstAttribute="trailing" secondItem="vnK-7s-6Dq" secondAttribute="trailing" constant="6" id="RzF-Hq-oib"/>
+                <constraint firstItem="wil-VZ-4j7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="6" id="TbU-vz-azu"/>
+                <constraint firstAttribute="trailing" secondItem="VQ4-RH-40s" secondAttribute="trailing" constant="6" id="WOK-Ky-gDQ"/>
+                <constraint firstItem="rs3-Fu-ool" firstAttribute="top" secondItem="Vae-7F-pIe" secondAttribute="bottom" constant="4" id="XDB-EP-Tj5"/>
+                <constraint firstItem="F4j-nG-OAe" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="7" id="YXw-9W-9W3"/>
+                <constraint firstItem="F4j-nG-OAe" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="32" id="aHy-0g-bXA"/>
+                <constraint firstItem="vwe-KG-1zx" firstAttribute="top" secondItem="VQ4-RH-40s" secondAttribute="bottom" constant="4" id="cX4-0y-rCp"/>
+                <constraint firstItem="QnL-lp-hMX" firstAttribute="top" secondItem="F4j-nG-OAe" secondAttribute="bottom" constant="4" id="eLX-UU-Tmt"/>
+                <constraint firstItem="Vae-7F-pIe" firstAttribute="top" secondItem="wil-VZ-4j7" secondAttribute="bottom" constant="4" id="eln-7O-Z2Z"/>
+                <constraint firstItem="wil-VZ-4j7" firstAttribute="top" secondItem="QnL-lp-hMX" secondAttribute="bottom" constant="4" id="fAQ-Cj-FQC"/>
+                <constraint firstItem="JFL-Z0-Bqi" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="53" id="m0x-2G-V78"/>
+                <constraint firstItem="VQ4-RH-40s" firstAttribute="top" secondItem="vnK-7s-6Dq" secondAttribute="bottom" constant="4" id="sJX-vr-goG"/>
+                <constraint firstItem="rs3-Fu-ool" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="6" id="uud-np-nQj"/>
+                <constraint firstAttribute="trailing" secondItem="JFL-Z0-Bqi" secondAttribute="trailing" constant="6" id="ygW-fY-sAo"/>
+            </constraints>
+            <size key="customSize" width="366" height="159"/>
+            <connections>
+                <outlet property="accrualsForPeriodLabel" destination="vnK-7s-6Dq" id="LG3-dA-zec"/>
+                <outlet property="deptBeginValueLabel" destination="JFL-Z0-Bqi" id="hiM-0l-Ml3"/>
+                <outlet property="deptEndValueLabel" destination="vwe-KG-1zx" id="cGD-bZ-UeG"/>
+                <outlet property="paymentForPeriodLabel" destination="VQ4-RH-40s" id="dnE-7T-p8C"/>
+                <outlet property="vidUslugi" destination="F4j-nG-OAe" id="ppR-5J-hHD"/>
+            </connections>
+            <point key="canvasLocation" x="215.94202898550725" y="27.120535714285712"/>
+        </collectionViewCell>
+    </objects>
+</document>
