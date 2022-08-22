@@ -42,7 +42,7 @@ class HistoryMetersController: UIViewController{
             self.getData(interval: self.interval)
             self.changeDateButton.setTitle(interval.getDateBeginLabel() + "-" + interval.getDateEndLabel(), for: .normal)
         }
-        self.present(viewController, animated: true)
+        self.navigationController?.pushViewController(viewController, animated: true)
  
     }
     @IBOutlet weak var historyMettersCollectionView: UICollectionView!
@@ -55,7 +55,8 @@ class HistoryMetersController: UIViewController{
     
     @IBAction func showSettingsDialog(_ sender: Any) {
         let viewController = self.storyboard?.instantiateViewController(withIdentifier: "SettingsControllerId") as! SettingsController
-       self.present(viewController, animated: true)  
+        self.navigationController?.pushViewController(viewController, animated: true)
+//       self.present(viewController, animated: true)  
     }
     
     override func viewDidLoad() {

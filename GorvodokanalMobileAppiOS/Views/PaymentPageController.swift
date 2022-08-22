@@ -12,7 +12,6 @@ import Toaster
  
 
 
-
 class PaymentPageController: UIViewController, UINavigationControllerDelegate {
     
     @IBOutlet var pagePaymentView: UIView!
@@ -112,7 +111,7 @@ extension  PaymentPageController: WKNavigationDelegate{
         if urlComponents!.path.hasSuffix("bad.php"){
             let parameterWeWant = urlComponents?.queryItems?.filter({ $0.name == "error" }).first
             print(parameterWeWant?.value ?? "")
-            navigationController?.popToRootViewController(animated: true)
+            navigationController?.popViewController(animated: true)
             messageToast = parameterWeWant?.value ?? ""
             let defaults = UserDefaults.standard
         
@@ -126,7 +125,7 @@ extension  PaymentPageController: WKNavigationDelegate{
             self.pagePaymentView.removeFromSuperview()
             
         }else if urlComponents!.path.hasSuffix("ok.php"){
-            navigationController?.popToRootViewController(animated: true)
+            navigationController?.popViewController(animated: true)
 //                let storyboard = UIStoryboard(name: "Main", bundle: nil)
 //                guard let secondViewController = storyboard.instantiateViewController(identifier: "PaymentMetersNavController") as? PaymentMetersController
 //

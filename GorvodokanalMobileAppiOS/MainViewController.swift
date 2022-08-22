@@ -143,26 +143,26 @@ extension MainViewController: SideMenuViewControllerDelegate {
         case 0:
             
             let viewController = self.storyboard?.instantiateViewController(withIdentifier: "GeneralInfoControllerId") as! GeneralInfoController
-            viewController.modalPresentationStyle = .fullScreen
-           
-            self.present(viewController, animated: true)
+            self.navigationController?.pushViewController(viewController, animated: true)
+//            viewController.modalPresentationStyle = .fullScreen
+//
+//            self.present(viewController, animated: true)
         case 1:
-           
             self.showViewController(viewController: UINavigationController.self, storyboardId: "HistoryMetersNavID")
         case 2:
-          
+
             self.showViewController(viewController: UINavigationController.self, storyboardId: "PassMetersNavID")
         case 3:
-            
+
             self.showViewController(viewController: UINavigationController.self, storyboardId: "PaymentMetersNavID")
         case 4:
-       
+
             self.showViewController(viewController: UINavigationController.self, storyboardId: "SupportNavID")
         case 5:
-        
+
             self.showViewController(viewController: UINavigationController.self, storyboardId: "ContactsNavID")
         case 6:
-       
+
             self.showViewController(viewController: UINavigationController.self, storyboardId: "AppealNavID")
        
             
@@ -178,8 +178,9 @@ extension MainViewController: SideMenuViewControllerDelegate {
             
             let viewController = self.storyboard?.instantiateViewController(withIdentifier: "AuthControllerId") as! AuthorizationController
             viewController.modalPresentationStyle = .fullScreen
+            self.navigationController?.pushViewController(viewController, animated: true)
            
-            self.present(viewController, animated: true)
+//            self.present(viewController, animated: true)
         default:
             break
         }

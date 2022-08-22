@@ -122,7 +122,7 @@ extension AppealIndividualsViewController: WKNavigationDelegate{
         if urlComponents!.path.hasSuffix("bad.php"){
             let parameterWeWant = urlComponents?.queryItems?.filter({ $0.name == "error" }).first
             print(parameterWeWant?.value ?? "")
-            navigationController?.popToRootViewController(animated: true)
+            navigationController?.popViewController(animated: true)
             self.performSegue(withIdentifier: "shoeGeneralInfo", sender: self)
             _ = UserDefaults.standard
         
@@ -137,7 +137,7 @@ extension AppealIndividualsViewController: WKNavigationDelegate{
            
             
         }else if urlComponents!.path.hasSuffix("ok.php"){
-            navigationController?.popToRootViewController(animated: true)
+            navigationController?.popViewController(animated: true)
                 let storyboard = UIStoryboard(name: "Main", bundle: nil)
             guard storyboard.instantiateViewController(identifier: "PaymentMetersNavController") is PaymentMetersController
     
