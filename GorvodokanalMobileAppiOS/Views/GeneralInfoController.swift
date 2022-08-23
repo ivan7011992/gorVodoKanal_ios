@@ -57,7 +57,7 @@ class GeneralInfoController: UIViewController {
     @IBAction func showSettingController(_ sender: Any) {
         
     let viewController = self.storyboard?.instantiateViewController(withIdentifier: "SettingsControllerId") as! SettingsController
-   self.present(viewController, animated: true)    }
+        self.navigationController?.pushViewController(viewController, animated: true)    }
   
     override func viewDidLoad() {
         super.viewDidLoad()
