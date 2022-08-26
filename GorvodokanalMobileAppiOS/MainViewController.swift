@@ -11,6 +11,7 @@ class HalfSizePresentationController: UIPresentationController {
     }
 }
 
+
 class MainViewController: UIViewController, UIViewControllerTransitioningDelegate {
     private var sideMenuViewController: SideMenuViewController!
     private var sideMenuShadowView: UIView!
