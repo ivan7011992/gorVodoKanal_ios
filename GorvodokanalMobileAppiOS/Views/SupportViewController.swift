@@ -117,7 +117,7 @@ class SupportViewController: UIViewController , UINavigationControllerDelegate{
                     let alert = UIAlertController(title:"Поддержка", message: "Вопрос отправлен\nОтвет будет дан в разделе 'Поддержка' позже или выслан по электронной почте",  preferredStyle: .alert)
                     let okBtn = UIAlertAction(title: "Закрыть окно", style: .default, handler:{(
                         action: UIAlertAction!) in
-                        self.navigationController?.popViewController(animated: true)
+                        self.navigationController?.popToRootViewController(animated: true)
                     
                     })
                     alert.addAction(okBtn)
